@@ -1,26 +1,38 @@
-# 🪓 Killer Axe
+🪓 Killer Axe – OpenGL Game
 
-A Python-based OpenGL graphics project.
+Killer Axe is a Python-based OpenGL game developed as part of a Computer Graphics coursework assignment.
 
-## 📌 Overview
+🎮 Game Description
 
-Killer Axe is a graphics project built using OpenGL in Python.  
-It demonstrates rendering, transformations, and basic interactive graphics concepts.
+The game renders an interactive scene where the player controls the axe and there are villegers throwing stones at it. The player needs to avoid those stones and try to eliminate the villegers with the axe. The villegers are eliminated when hit by the axe and the players looses the game if hit by any stone.
 
-## 🎮 Features
+It demonstrates real-time rendering, transformations, and event handling using OpenGL.
 
-- OpenGL rendering
-- Scene drawing
-- Object transformations
-- Keyboard / mouse interaction (if applicable)
+---
 
-## 🛠️ Technologies Used
+🚀 Features
+
+- Real-time rendering using OpenGL
+- Object transformations (translation, rotation, scaling)
+- Keyboard interaction
+- Game loop implementation
+- Collision logic 
+- Score or game state management 
+
+
+
+🛠️ Technologies Used
 
 - Python
 - PyOpenGL
-- GLUT / OpenGL utilities
+- GLUT
+- OpenGL
 
-## ▶️ How to Run
+
+
+▶️ How to Run
+
+1. Install dependencies:
 
 1. Install dependencies:
 pip install PyOpenGL PyOpenGL_accelerate
@@ -28,7 +40,7 @@ pip install PyOpenGL PyOpenGL_accelerate
 2. Run the main file:
 python main.py
 
-## 📚 Concepts Demonstrated
+📚 Concepts Demonstrated
 
 - 2D/3D rendering
 - Coordinate systems
